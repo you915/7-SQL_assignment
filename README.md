@@ -57,13 +57,27 @@ It's time to identify fraudulent transactions. In this part of the homework assi
 
   * What are the top 100 highest transactions during this time period?
 
+![100_trans](Images/100_transaction.JPG)
+
   * Do you see any fraudulent or anomalous transactions?
+
+Yes
 
   * If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame.
 
+By looking at the combined plot, it is possible to say cardholder 2's transaction is consistent while card holder 18's transaction is not consistent. Card holder 18's transaction shows a quite frequent high purchase throughout the year. Cardholder 2 constantly made small purchases while cardholder 18 made big purchases roughly every 2 months. 
+
+It does not make sense to spend $1000+ at the bar between 7am - 9am. People typically does not eat or drink that much in the restaurant or bar in the morning.
+
 * Some fraudsters hack a credit card by making several small payments (generally less than $2.00), which are typically ignored by cardholders. Count the transactions that are less than $2.00 per cardholder. Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.
 
+Yes. There are many transactions below $2 and this is the evidence that the credit card has been hacked.
+
+![100_trans](Images/100_transaction.JPG)
+
 * What are the top 5 merchants prone to being hacked using small transactions?
+
+![5merchant](Images/5merchant.JPG)
 
 * Once you have a query that can be reused, create a view for each of the previous queries.
 
