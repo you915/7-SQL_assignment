@@ -1,4 +1,4 @@
-# Unit 7 Homework Assignment: Looking for Suspicious Transactions
+# Looking for Suspicious Transactions
 
 ![Credit card fraudster](Images/credit_card_fraudster.jpg)
 
@@ -8,7 +8,7 @@
 
 Fraud is prevalent these days, whether you are a small taco shop or a large international business. While there are emerging technologies that employ machine learning and artificial intelligence to detect fraud, many instances of fraud detection still require strong data analytics to find abnormal charges.
 
-In this homework assignment, you will apply your new SQL skills to analyze historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions.
+Apply your new SQL skills to analyze historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions.
 
 You are asked to accomplish three main tasks:
 
@@ -120,23 +120,5 @@ Read the following articles on outliers detection, and then code a function usin
 * [Removing Outliers Using Standard Deviation in Python](https://www.kdnuggets.com/2017/02/removing-outliers-standard-deviation-python.html)
 
 * [How to Use Statistics to Identify Outliers in Data](https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/)
-
-### Submission
-
-* Create an image file of your ERD.
-
-* Create a `.sql` file of your table schemata.
-
-* Create a `.sql` file of your queries.
-
-* Create a Jupyter Notebook for the visual data analysis and the challenge.
-
-* Create and upload a repository with the above files to GitHub and post a link in BootCamp Spot.
-
-## Hint
-
-For comparing time and dates, take a look at the [date/time functions and operators](https://www.postgresql.org/docs/8.0/functions-datetime.html) in the PostgreSQL documentation.
-
----
 
 © 2019 Trilogy Education Services
